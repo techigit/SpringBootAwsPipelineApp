@@ -8,6 +8,7 @@ public class SpringbootAwsCicdPipelineAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootAwsCicdPipelineAppApplication.class, args);
+		System.out.println("ewty");
 	}
 
 }
