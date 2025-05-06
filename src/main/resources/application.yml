@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: SpringbootAwsCICDPipelineApp
+  datasource:
+   #driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://srinujavatechdb.cf04equc0d2j.ap-south-1.rds.amazonaws.com:3306/awstest?useSSL=false&allowPublicKeyRetrieval=true
+    password: mysqlroot
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+#  profiles:
+#    active:
+#    - test
+logging:
+  file:
+    name: C:/Users/Home/Desktop/logs/springbootapplication.log
