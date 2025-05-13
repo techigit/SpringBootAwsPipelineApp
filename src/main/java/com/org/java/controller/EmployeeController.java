@@ -37,7 +37,7 @@ public class EmployeeController {
 	public String welcomeTest() {
 		logger.trace("it is trace method welcome calling");
 		logger.info("wel come method is working");
-		return "WELCOME TO AWS TEST CI/CD DONE BY SRINU";
+		return "WELCOME TO AWS TEST CI/CD TESTING BY USING AWS CLOULD..";
 	}
 
 	@PostMapping("/save")
