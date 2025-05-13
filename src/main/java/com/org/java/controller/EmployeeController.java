@@ -37,7 +37,7 @@ public class EmployeeController {
 	public String welcomeTest() {
 		logger.trace("it is trace method welcome calling");
 		logger.info("wel come method is working");
-		return "WELCOME TO AWS TEST ";
+		return "WELCOME TO AWS TEST Thrishank";
 	}
 
 	@PostMapping("/save")
